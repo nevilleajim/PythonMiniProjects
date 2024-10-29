@@ -21,6 +21,6 @@ while True:
             print("Computer Wins!!!")
 
       playAgain = input("Do you wish to play again(yes/no): ")
-      if playAgain != "yes":
+      if (playAgain != "yes"):
             print("Thank You for playing!!!")
             break

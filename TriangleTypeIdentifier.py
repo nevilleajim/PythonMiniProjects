@@ -6,7 +6,7 @@ side3 = float(input("Side 3: "))
 
 if (side1 + side2 > side3) and (side2 + side3 > side1) and (side1 + side3 > side2):    #Triangle Inequality Theorem
       if side1 == side2 == side3:
-            print("The triangle is an EQUILSTERAL TRIANGLE.")
+            print("The triangle is an EQUILATERAL TRIANGLE.")
       elif (side1 == side2) or (side2 == side3) or (side1 == side3):
             print("The triangle is an ISOCELES TRIANGLE.")
       else:
