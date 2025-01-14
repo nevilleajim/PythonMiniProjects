@@ -1,10 +1,13 @@
 import random
 
-num = random.randint(1, 100)
+lowerDigit = int(input("Enter the lower range: "))
+upperDigit = int(input("Enter the upper range: "))
+
+num = random.randint(lowerDigit, upperDigit)
 flag = False
 
-print("Guess the Number Game\n")
-print("Random number has been generated which ranges from 1 to 100.\nThe user gets 10 chances to guess the number correctly.")
+print("G\n")
+print(f"Random number has been generated which ranges from {lowerDigit} to {upperDigit}.\nThe user gets 10 chances to guess the number correctly.")
 
 for i in range(10):
       number = int(input("Guess the number: "))

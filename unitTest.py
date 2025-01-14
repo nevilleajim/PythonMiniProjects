@@ -1,5 +1,5 @@
 import unittest
-from factorial import calculate_factorial
+from Factorial import calculate_factorial
 
 class TestFactorialFunction(unittest.TestCase):
       def test_factorial_positive(self):
